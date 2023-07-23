@@ -13,7 +13,7 @@ public class MainServer {
        Accounts ac=new Accounts();
 //       System.out.println(c.deposist(100, 123456948,cust));
        System.out.println(c.deposist(100, 123456949,cust));
-       System.out.println(c.withdrawl(100, 123456949,cust));
+       System.out.println(c.withdrawl(100, 123456947,cust));
        System.out.println(ac.getDetailsByAccNumber(123456949, cust)[0].getAmount());
        
 	}
